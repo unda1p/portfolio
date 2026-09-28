@@ -1,0 +1,40 @@
+.footer {
+  padding: 60px 10%;
+  text-align: center;
+  background: #111;
+  color: white;
+}
+
+.footer h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.footer p {
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.links a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.copy {
+  font-size: 14px;
+  margin-bottom: 0 !important;
+}
